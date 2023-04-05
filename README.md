@@ -33,7 +33,7 @@ Ela possui algumas desvantagens também, como ser mais complexa que as outras á
 
 <p>&emsp; Usamos o atributo comparison para depois contabilizar quantas palavras iguais e diferentes há em cada árvore. Os nodos em que há comparison é igual a 0 diz que aquela palavra não foi achada no outro texto, e, quando comparison é igual a 1, a palavra do nodo foi achada no outro texto.</p>
 	
-<p>&emsp; Com a comparação das árvores feitas, contabilizamos quantas palavras no total há em cada texto, usando a função wordsTree. E, depois, calculamos  quantas palavras tem comparison igual a 1 em uma das duas árvores (não faz diferença qual, pois terão o mesmo resultado)1 com a função equalWords.</p>
+<p>&emsp; Com a comparação das árvores feitas, contabilizamos quantas palavras no total há em cada texto, usando a função wordsTree. E, depois, calculamos  quantas palavras tem comparison igual a 1 em uma das duas árvores (não faz diferença qual, pois terão o mesmo resultado) com a função equalWords.</p>
 
 <p>&emsp; A partir dos dados acima, conseguimos calcular o coeficiente de jaccard da seguinte maneira:</p>
 	   
